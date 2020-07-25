@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+header{
+  height: 50px
+  background: white;
+  color: : #fff;
+}
+#btn{
+  display: none;
+}
+header label{
+  font-size: 300px;
+  cursor: pointer;
+  display: none;
+}
+.menu ul{
+  background: #black;
+  display:flex;
+  list-style: none;
+}
+.menu ul ul{
+  display: none;
+}
+.menu a{
+  display: block;
+  padding: 15px 20px;
+  text-decoration: none;
+}
+.menu a span{
+  margin-left: 10px;
+}
+.menu ul li:hover ul{
+  display: block;
+  position: absolute;
+}
+#titulo{
+  font-size: 300%;
+	color: black;
+	position: center;
+}
+
+#nombre{
+  font-size: 100%;
+	color: black;
+	position: center;
+}
