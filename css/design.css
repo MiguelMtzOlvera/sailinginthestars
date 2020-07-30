@@ -96,6 +96,10 @@ body{
 footer a{
 color: white;
 }
+img{
+  margin-left: 5px;
+  margin-right: 5px;
+}
 @media (max-width:768px){
     header label{
         display: block;
