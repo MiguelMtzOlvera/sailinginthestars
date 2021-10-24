@@ -1,6 +1,6 @@
-$(".sub").click(function(){
-  $(this).children("ul").slideToggle();
+$('.sub').click(function(){
+  $(this).children('ul').slideToggle();
 })
-$("ul").click(function(p){
+$('ul').click(function(p){
   p.stopPropagation();
 })
