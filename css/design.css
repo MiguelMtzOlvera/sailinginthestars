@@ -5,6 +5,16 @@
     font-family: sans-serif;
 }
 
+#donar {
+    text-align: center;
+}
+
+#txtdonar {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+}
+
 header {
     height: 50px;
     background: white;
